@@ -1,0 +1,15 @@
+server:
+  port: 8083
+
+spring:
+  application:
+    name: StockCommandService
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: stock-command
+  activemq:
+    broker-url: tcp://localhost:61616
+    user: admin
+    password: admin

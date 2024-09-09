@@ -1,0 +1,15 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: ProductQueryService
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: product-query
+  activemq:
+    broker-url: tcp://localhost:61616
+    user: admin
+    password: admin
