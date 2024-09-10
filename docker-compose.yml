@@ -5,6 +5,7 @@ services:
     ports:
       - "27017:27017"
 
+  # username: "admin", password: "admin", adminPath: /admin
   activemq:
     image: apache/activemq-classic:latest
     restart: unless-stopped
